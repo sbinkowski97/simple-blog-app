@@ -1,0 +1,30 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 80%;
+  height: 100%;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  font-weight: 500;
+  &__footer {
+    margin: 0 10px;
+    max-width: 100%;
+    position: absolute;
+    bottom: 5px;
+    font-weight: 400;
+  }
+  &__list {
+    margin: 10% 10%;
+    list-style: none;
+  }
+  &__element {
+    margin: 10px 0;
+    font-size: 18px;
+    display: block;
+    &--active {
+      color: lightblue;
+      border-bottom: solid 2px lightblue;
+    }
+  }
+}

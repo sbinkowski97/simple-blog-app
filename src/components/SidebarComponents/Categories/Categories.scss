@@ -1,0 +1,21 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 20px;
+  &__list {
+    justify-content: center;
+    flex-basis: 100%;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  &__item {
+    display: block;
+    border-bottom: solid 1px lightgray;
+    font-size: 20px;
+    padding: 5px 0;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.tagcloud {
+  margin: 10px 20px;
+  &__list {
+    display: flex;
+    list-style-type: none;
+    margin: 10px 5px;
+  }
+  &__item {
+    display: block;
+    padding: 2px;
+    margin: 2px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
