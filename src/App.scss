@@ -1,0 +1,13 @@
+.container {
+  //   height: 200vh;
+  width: 75%;
+  flex-grow: 3;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+.wrapper {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
